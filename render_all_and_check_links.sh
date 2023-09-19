@@ -1,12 +1,12 @@
 #!/bin/bash
+# Run this to render both website and slides and check links
 # Create slides
 echo "Building slides"
 make --makefile=SlidesMakefile all
 
 # Re-create website
 echo "Building website"
-make clean
-make html SPHINXOPTS="-t dev"
+./render.sh
 
 # Running linkcheck
 echo "Linkcheck"
