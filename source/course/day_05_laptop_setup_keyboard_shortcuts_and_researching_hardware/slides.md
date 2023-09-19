@@ -8,7 +8,7 @@ paginate: true
 
 # IT, ist das was für mich? 👩‍💻
 
-## Tag 4 🎈
+## Tag 5 🎈
 
 - CPU, Arbeitsspeicher und Festspeicher
 - Von der Idee zum Plan

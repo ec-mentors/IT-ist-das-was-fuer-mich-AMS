@@ -1,4 +1,4 @@
-# Tag 2: Grundbegriffe, Laptops, Computer
+# Tag 3: Grundbegriffe, Laptops, Computer
 
 **Wir zerlegen einen Computer!** 🧰 🪛 💻
 
@@ -8,5 +8,4 @@ Außerdem werden wir einen Computer zerlegen und uns anschauen, woraus der beste
 
 {download}`🎬 Slides <./slides.pdf>`
 
-TODO Claus
-* Festplatte, RAM und CPU mit verteilten Rollen
+% Idee: Festplatte, RAM und CPU mit verteilten Rollen
