@@ -125,6 +125,12 @@ permanent_exclude_patterns = [
 ]
 
 # TODO: rethink this
+# SPHINXOPTS="-t dev" is passed on command line
+# print(tags)
+# Note that `render_all_and_check_link.sh` builds the development or work in progress (wip) version
+# of the website whereas the CI service only builds publication-ready-content.
+# See how the `exclude_patterns` is specified in `conf.py`. The toggle is
+# implemented using [`tags` passed to the build commands](https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags).
 # When we run sphinx using the "dev" tag, we also include
 # content that is work in progress
 if tags.has('dev'):

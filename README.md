@@ -53,33 +53,15 @@ To better understand the underlying principles, take a look at Sphinx.
 To build locally, do
 
 ```console
-make html
+./render.sh
+./render_on_save.sh
 ```
 
-To remove the build, do
-
-```console
-make clean
-```
-
-Alternatively, `sphinx-build` can be invoked directly
-
-```console
-$ sphinx-build -b html source/ public/  # to build
-$ rm -r public  # to remove the build
-```
-
-Links are automatically checked in the CI pipeline.
-To run these checks locally, see the CI config.
 
 ### CI Pages
 
 A CI pipeline is configured and the build is automatically published.
 
-When a new project is initialized, the repository settings need to
-be updated on GitHub.
-
-![GitHub Repo Settings / Pages](.github/workflows/gh-pages-settings-screenshot.png)
 
 ## Slides
 
@@ -87,7 +69,9 @@ be updated on GitHub.
 
 Slides are markdown-based and rendered using [Marp](https://marp.app/).
 
-Note: To included slides on the website, at the PDF version as download.
+Notes:
+* To included slides on the website, add the PDF version as download.
+* Any markdown engine could be used.
 
 ### Setup
 
@@ -140,13 +124,7 @@ as well a
 
 ### Building Everything
 
-`$ ./run.sh` to render both slides and website in one go.
-
-Note that `run.sh` builds the development or work in progress (wip) version
-of the website whereas the CI service only builds publication-ready-content.
-See how the `exclude_patterns` is specified in `conf.py`. The toggle is
-implemented using [`tags` passed to the build commands](https://www.sphinx-doc.org/en/master/usage/configuration.html#conf-tags).
-
+`$ ./render_all_and_check_link.sh` to render both slides and website in one go.
 
 ## New Intake Actions
 
@@ -167,3 +145,5 @@ To activate *GitHub Pages*:
 On *GitHub / Settings / GitHub Pages* select
 * Source: Deploy from branch
 * Branch: gh-pages / (root) *Save*
+
+![GitHub Repo Settings / Pages](.github/workflows/gh-pages-settings-screenshot.png)
