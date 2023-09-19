@@ -147,3 +147,14 @@ On *GitHub / Settings / GitHub Pages* select
 * Branch: gh-pages / (root) *Save*
 
 ![GitHub Repo Settings / Pages](.github/workflows/gh-pages-settings-screenshot.png)
+
+
+## Miscellaneous
+
+### Compressing Images
+
+For example like this:
+
+```console
+convert original.jpg -quality 50% compressed.jpg
+```
