@@ -10,8 +10,8 @@ Jede von euch hat daher einen eigenen Eintrag auf unserer
 Kursseite den wir in den kommenden fünf Wochen mit
 Leben füllen werden.
 
-![Participants (and others not on the picture)](group_picture.jpg)
-
+![Participants (and others not on the picture)](group_picture_i03.jpeg)
+![Participants (and others not on the picture)](group_picture_i04.jpg)
 
 ```{toctree}
 :maxdepth: 1
