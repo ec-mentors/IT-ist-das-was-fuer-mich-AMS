@@ -76,6 +76,10 @@ To run these checks locally, see the CI config.
 
 A CI pipeline is configured and the build is automatically published.
 
+When a new project is initialized, the repository settings need to
+be updated on GitHub.
+
+![GitHub Repo Settings / Pages](.github/workflows/gh-pages-settings-screenshot.png)
 
 ## Slides
 
