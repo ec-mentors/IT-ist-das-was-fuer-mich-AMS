@@ -79,7 +79,7 @@ Sie hat beim [BBRZ](https://www.bbrz.at/) eine Ausbildung zur [Mechatronikerin](
 
 Zu ihrer Geschichte gab es sogar einen {download}`Beitrag in der Zeitschrift der Arbeiterkammer <../_static/JuliaMittas_AKFS_Nov_2022.pdf>`.
 
-Fragen:
+Fragen:p
 - Was ist Mechatronik?
   - Wo begegnet uns Mechatronik im Alltag?
   - Was hat Mechatronik mit IT zu tun?

@@ -1,11 +1,9 @@
 # IT, ist das was für mich?
 
-🚧 **Diese Seite wird im Laufe des Kurses kontinuierlich aktualisiert.** 👷‍♀️
-
-Arbeitsmaterialien für den Kurs.
-
+![Participants (and others not on the picture)](./participants/group_picture_i03.jpeg)
 
 ```{toctree}
+:caption: Arbeitsmaterialien für den Kurs
 :maxdepth: 1
 
 course/index
@@ -26,4 +24,5 @@ guests/guests
 contact
 ```
 
+**🚧 Diese Seite wird im Laufe des Kurses kontinuierlich aktualisiert. 👷‍♀️**
 
