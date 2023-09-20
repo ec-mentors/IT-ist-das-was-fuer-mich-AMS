@@ -16,12 +16,12 @@ lego/index
 raspberrypi
 microbit/index
 website
-projects
+projects/projects
 learning
 
 orientation
 education
-guests
+guests/guests
 
 contact
 ```

@@ -2,11 +2,13 @@
 
 Der Micro Bit ist ein vielseitig programmierbarer Einplatinencomputer.
 
+<img src="./iidwfm-presentationen-24.jpg" alt="">
+
+
 Wichtige Links:
 - [BBC micro:bit Webseite](https://microbit.org/)
   - [Let's code](https://microbit.org/code/) für Links zu Editoren und dem Classroom
 - [Microsoft Make Code für micro:bit](https://makecode.microbit.org/)
-
 
 ## Hardware
 
@@ -14,7 +16,7 @@ Bevor wir mit dem Programmieren loslegen, wollen wir uns die
 Hardware genauer anschauen und versuchen, den Micro Bit zu
 beschreiben.
 
-Für die nun folgenden Übungen, könnt ihr die Antworten entweder
+Für die nun folgenden Übungen, könnt ihr ein Poster gestalten, die Antworten
 auf einem Blatt Papier sammeln oder in einem Google Doc eintragen.
 
 
@@ -47,6 +49,7 @@ Beantworte dabei auch die folgenden Fragen:
 * Welche Möglichkeiten gibt es um mit dem Gerät zu interagieren?
 ```
 
+<img src="./i04_poster_microbit.jpg" alt="">
 
 ## Software
 
